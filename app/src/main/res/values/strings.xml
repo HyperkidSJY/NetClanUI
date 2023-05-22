@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">netclanuiassignment</string>
+    <string name="available_hey_let_us_connect">Available | Hey Let Us Connect</string>
+    <string name="select_your_availability">Select Your Availability</string>
+    <string name="bharuch">Bharuch</string>
+    <string name="howdy_shivam_yadav">Howdy Shivam Yadav !!</string>
+    <string name="add_your_status">Add Your Status</string>
+    <string name="emoji">Hi community! I am open to new connections &quot;😊&quot;</string>
+    <string name="select_hyper_local_distance">Select Hyper Local Distance</string>
+    <string name="select_purpose">Select Purpose</string>
+    <string name="save_amp_explore"><![CDATA[Save & Explore]]></string>
+
+    <string-array name="availability">
+        <item>Available | Hey Let Us Connect</item>
+        <item>Away | Stay Discreet And Watch</item>
+        <item>Busy | Do Not Disturb | Will Catch Up Later</item>
+        <item>SOS | Emergency! Need Assistance! HELP</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Netclanuiassignment" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/blue</item>
+    </style>
+
+    <style name="Theme.Netclanuiassignment" parent="Base.Theme.Netclanuiassignment" />
+
+    <style name="customToolBarStyle">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:colorControlNormal">#fff</item>
+    </style>
+
+    <style name="customToolTip" parent="Widget.MaterialComponents.Tooltip">
+        <item name="android:textAppearance">@style/TextAppearance.App.Tooltip</item>
+        <item name="backgroundTint">@color/blue</item>
+    </style>
+
+    <style name="TextAppearance.App.Tooltip" parent="TextAppearance.MaterialComponents.Tooltip">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="customImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">15dp</item>
+    </style>
+
+    <style name="CustomChipStyle" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/chip_background_color_selector</item>
+        <item name="chipStrokeColor">@color/chip_stroke_color_selector</item>
+        <item name="android:textColor">@color/chip_text_color_selector</item>
+        <item name="chipStrokeWidth">1dp</item>
+    </style>
+
+    <style name="customBottomNav" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">?attr/colorSurface</item>
+    </style>
+
+
+</resources>
